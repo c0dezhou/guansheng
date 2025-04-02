@@ -94,18 +94,6 @@
             margin-bottom: 0.5rem;
         }
 
-        /* 响应式设计 */
-        @media (max-width: 768px) {
-            .nav-links {
-                display: none;
-            }
-            
-            .section-title {
-                font-size: 2rem;
-            }
-        }
-    /* 其他样式保持不变 */
-    
         /* 联系我们 */
         .contact {
             background-color: #0066cc;
@@ -132,6 +120,17 @@
         
         .contact a:hover {
             text-decoration: underline;
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
         }
     </style>
 </head>
@@ -221,6 +220,7 @@
         </div>
     </section>
 
+    <!-- 联系我们 -->
     <section class="contact">
         <h2>联系我们</h2>
         <p>地址：杭州市萧山区钱江世纪城帆影路150号智力大厦（杭州数智文创产业园）22层</p>
@@ -250,7 +250,5 @@
             });
         });
     </script>
-
-    
 </body>
 </html>
